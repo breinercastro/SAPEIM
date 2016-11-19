@@ -6,31 +6,32 @@
 package com.mycompany.sapeim.controller;
 
 import com.mycompany.sapeim.modelo.UsuariosFacadeLocal;
+import javax.inject.Named;
+import javax.enterprise.context.SessionScoped;
+import java.io.Serializable;
 import javax.annotation.PostConstruct;
 import javax.ejb.EJB;
-import javax.inject.Named;
-import javax.enterprise.context.Dependent;
 
 /**
  *
- * @author Usuario
+ * @author André
  */
-@Named(value = "beanUsuarios")
-@Dependent
-public class BeanUsuarios {
+@Named(value = "mBeanUsuario")
+@SessionScoped
+public class MBeanUsuario implements Serializable {
 
     @EJB
     private UsuariosFacadeLocal usuariosFacade;
-
-   
-
+    
     /**
-     * Creates a new instance of BeanUsuarios
+     * Creates a new instance of MBeanUsuario
      */
-    public BeanUsuarios() {
+    public MBeanUsuario() {
     }
-
+    
     @PostConstruct
-    public void init() {
+    public void init(){
+        
     }
+    
 }
