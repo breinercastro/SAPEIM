@@ -4,7 +4,6 @@ com\mycompany\sapeim\modelo\RolesFacade.class
 com\mycompany\sapeim\entity\PrestamoReserva.class
 com\mycompany\sapeim\modelo\UsuariosFacade.class
 com\mycompany\sapeim\entity\Usuarios_.class
-com\mycompany\sapeim\controller\BeanPrestamo.class
 com\mycompany\sapeim\entity\Roles.class
 com\mycompany\sapeim\modelo\EquiposFacadeLocal.class
 com\mycompany\sapeim\modelo\MarcaFacadeLocal.class
@@ -19,15 +18,12 @@ com\mycompany\sapeim\entity\Roles_.class
 com\mycompany\sapeim\entity\Disponibilidad_.class
 com\mycompany\sapeim\entity\TipoDocumento_.class
 com\mycompany\sapeim\entity\Disponibilidad.class
-com\mycompany\sapeim\controller\BeanUsuarios.class
-com\mycompany\sapeim\controller\BeanEquipos.class
 com\mycompany\sapeim\modelo\EquiposFacade.class
 com\mycompany\sapeim\entity\Marca.class
 com\mycompany\sapeim\modelo\MarcaFacade.class
 com\mycompany\sapeim\modelo\DisponibilidadFacadeLocal.class
 com\mycompany\sapeim\modelo\NovedadesFacadeLocal.class
 com\mycompany\sapeim\entity\Equipos.class
-com\mycompany\sapeim\controller\BeanReserva.class
 com\mycompany\sapeim\modelo\NovedadesFacade.class
 com\mycompany\sapeim\entity\TipoEquipo.class
 com\mycompany\sapeim\modelo\EstadoEquipoFacadeLocal.class
